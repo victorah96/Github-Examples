@@ -1,4 +1,6 @@
 name: "Workflow Commands"
+on: 
+  - push
 jobs: 
   workflow_command_example:
     runs-on: ubuntu-latest
