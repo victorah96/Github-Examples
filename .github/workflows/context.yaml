@@ -6,7 +6,7 @@ jobs:
 
     steps:
       - name: "Step 1"
-        run: echo "Hello! {github.action}" 
+        run: echo "Hello! ${{github.action}}" 
              echo "$MY_ACTOR"
         env: 
           MY_ACTOR: ${{ github.actor }}
